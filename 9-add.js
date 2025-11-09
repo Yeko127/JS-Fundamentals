@@ -1,0 +1,14 @@
+function add (a, b){
+    return a + b;
+
+}
+
+const a = parseInt(process.argv[2], 10);
+const b = parseInt(process.argv[3], 10);
+console.log(add(a, b));
+
+//output
+//node 9-add.js 
+//NaN
+//node 9-add.js 10 10
+//20
